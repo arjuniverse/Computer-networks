@@ -1,41 +1,74 @@
-🌐 Computer Networks Lab (Java Programs)
-📝 Overview
+# 🌐 **Computer Networks Lab (Java Programs)**
 
-This repository contains a collection of Java programs implemented as part of the Computer Networks (CN) Lab. The programs demonstrate fundamental networking concepts such as flow control, error detection, routing algorithms, congestion control, and basic network communication using sockets.
+---
 
-The aim of this lab is to provide practical understanding of how data is transmitted reliably and efficiently across networks using various protocols and algorithms.
+## 📝 **Overview**
 
-🚀 Programs Included
-📡 Flow Control Protocols
-Stop-and-Wait ARQ
-Sliding Window Protocol
-🔁 Error Detection & Correction
-CRC (Cyclic Redundancy Check)
-Hamming Code
-Checksum Method
-📦 Data Encoding Techniques
-Bit Stuffing & Bit Destuffing
-Byte Stuffing
-🌊 Congestion Control Algorithms
-Leaky Bucket Algorithm
-Token Bucket Algorithm
-🛣️ Routing Algorithms
-Dijkstra’s Algorithm
-Bellman-Ford Algorithm (Distance Vector Routing)
-Link State Routing
-🔐 Security & Cryptography
-RSA Algorithm
-🌐 Network Programming
-TCP Client-Server Communication
-UDP Client-Server Communication
-Chat Application using Sockets
-🛠️ Tech Stack
+🚀 This repository contains a collection of **Java programs** developed as part of the **Computer Networks Lab**.
 
-Language: Java
-Concepts: Computer Networks, Data Communication, Protocol Simulation
+💡 It demonstrates core networking concepts like:
 
-📂 Project Structure
+* Flow Control
+* Error Detection & Correction
+* Routing Algorithms
+* Congestion Control
+* Socket Programming
 
+📡 The goal is to provide **hands-on understanding** of how data is transmitted **reliably & efficiently** across networks.
+
+---
+
+## 🚀 **Programs Included**
+
+### 📡 **Flow Control Protocols**
+
+* Stop-and-Wait ARQ
+* Sliding Window Protocol
+
+### 🔁 **Error Detection & Correction**
+
+* CRC (Cyclic Redundancy Check)
+* Hamming Code
+* Checksum Method
+
+### 📦 **Data Encoding Techniques**
+
+* Bit Stuffing & Bit Destuffing
+* Byte Stuffing
+
+### 🌊 **Congestion Control Algorithms**
+
+* Leaky Bucket Algorithm
+* Token Bucket Algorithm
+
+### 🛣️ **Routing Algorithms**
+
+* Dijkstra’s Algorithm
+* Bellman-Ford Algorithm (Distance Vector Routing)
+* Link State Routing
+
+### 🔐 **Security & Cryptography**
+
+* RSA Algorithm
+
+### 🌐 **Network Programming**
+
+* TCP Client-Server Communication
+* UDP Client-Server Communication
+* Chat Application using Sockets
+
+---
+
+## 🛠️ **Tech Stack**
+
+💻 **Language:** Java
+📚 **Concepts:** Computer Networks, Data Communication, Protocol Simulation
+
+---
+
+## 📂 **Project Structure**
+
+```
 CN-Lab/
 │── StopAndWait.java
 │── SlidingWindow.java
@@ -54,45 +87,84 @@ CN-Lab/
 │── UDPClient.java
 │── UDPServer.java
 │── README.md
+```
 
-⚙️ How to Run
+---
 
-Step 1: Open terminal in project folder
+## ⚙️ **How to Run**
 
-Step 2: Compile any program
-Run "javac FileName.java"
+### 🧑‍💻 Step 1: Open Terminal
 
-Step 3: Run the program
-Run "java FileName"
+Navigate to your project folder.
 
-Example:
-Run "javac StopAndWait.java"
-Run "java StopAndWait"
+### ⚡ Step 2: Compile Program
 
-If error occurs, use:
-Run "java -cp . FileName"
+```
+javac FileName.java
+```
 
-💡 Learning Outcomes
-Understand flow control mechanisms
-Implement error detection and correction techniques
-Learn routing and shortest path algorithms
-Simulate congestion control methods
-Gain hands-on experience with socket programming
-🎯 Applications
-Data communication systems
-Network protocol design
-Error-free data transmission
-Internet routing systems
-Secure communication
-🔮 Future Enhancements
-GUI-based simulations
-Integration with real-time networking tools
-Visualization of packet flow
-Advanced protocols implementation
-🤝 Contributing
+### ▶️ Step 3: Run Program
 
-Contributions are welcome! Feel free to fork this repository and improve the implementations.
+```
+java FileName
+```
 
-📜 License
+### ✅ Example:
 
-This project is for educational purposes and can be freely used.
+```
+javac StopAndWait.java
+java StopAndWait
+```
+
+### ❗ If Error Occurs:
+
+```
+java -cp . FileName
+```
+
+---
+
+## 💡 **Learning Outcomes**
+
+✨ Understand flow control mechanisms
+✨ Implement error detection techniques
+✨ Learn routing algorithms
+✨ Simulate congestion control methods
+✨ Gain hands-on experience with socket programming
+
+---
+
+## 🎯 **Applications**
+
+🌍 Data communication systems
+📡 Network protocol design
+✅ Error-free data transmission
+🌐 Internet routing systems
+🔐 Secure communication
+
+---
+
+## 🔮 **Future Enhancements**
+
+🚀 GUI-based simulations
+📊 Packet flow visualization
+🛠️ Integration with real-time networking tools
+📡 Advanced protocol implementations
+
+---
+
+## 🤝 **Contributing**
+
+💡 Contributions are welcome!
+👉 Fork this repository and improve the implementations.
+
+---
+
+## 📜 **License**
+
+📚 This project is for **educational purposes** and is free to use.
+
+---
+
+⭐ **If you found this helpful, consider giving it a star!**
+
